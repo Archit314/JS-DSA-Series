@@ -2,16 +2,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Run JavaScript with Input/Output",
+            "label": "Run JS with IO (Universal)",
             "type": "shell",
-            "command": "node",
-            "args": [
-                "${file}",
-                "<",
-                "input.txt",
-                ">",
-                "output.txt"
-            ],
+            "command": "node \"${file}\" < \"${fileDirname}\\input.txt\" > \"${fileDirname}\\output.txt\"",
             "presentation": {
                 "reveal": "never"
             },
@@ -20,7 +13,6 @@
                 "isDefault": true
             },
             "options": {
-                "cwd": "${workspaceFolder}",
                 "shell": {
                     "executable": "C:\\Windows\\System32\\cmd.exe",
                     "args": ["/c"]
