@@ -1,0 +1,2 @@
+Entered number: 123400056789
+Total number of digits in the entered number: 12
