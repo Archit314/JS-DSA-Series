@@ -2,7 +2,7 @@
  * Recursively print number N to 1:
  * @param {number} maxNumber - Max number to print
  * 
- * Time Complexity: 0(n) where n = frequency
+ * Time Complexity: O(n) where n = maxNumber
  */
 class Solution{
 
