@@ -1,0 +1,3 @@
+Entered Array: 2,2,3,3,3,4
+Highest frequency element: 3
+Lowest frequency element: 4

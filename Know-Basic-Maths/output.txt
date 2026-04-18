@@ -1,2 +1,2 @@
-Entered number: 123400056789
-Total number of digits in the entered number: 12
+User input: 1
+Is 1 a prime number: false
