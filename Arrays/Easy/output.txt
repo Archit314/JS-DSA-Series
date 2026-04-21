@@ -1,0 +1,2 @@
+Entered Array: [56,393,22,23,6]
+Largest Element is: 393
