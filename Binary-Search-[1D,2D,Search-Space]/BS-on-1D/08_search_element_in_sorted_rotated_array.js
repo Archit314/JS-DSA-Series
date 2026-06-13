@@ -63,6 +63,8 @@ process.stdin.on('end', () => {
         const enteredArray = inputData[0].split(' ').map(element => Number(element))
         if(enteredArray.length > 1){
 
+            console.log(`Entered array: [${enteredArray}]`)
+
             const searchElement = Number(inputData[1])
             if(!isNaN(searchElement)){
 
