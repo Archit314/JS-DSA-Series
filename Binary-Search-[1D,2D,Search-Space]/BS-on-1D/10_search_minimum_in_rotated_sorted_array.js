@@ -57,7 +57,7 @@ process.stdin.on('end', () => {
         console.log(`Entered array: [${enteredArray}]`)
 
         // Find and print the minimum element
-        console.log(`Is element present in the array: ${new Solution().searchElement(enteredArray)}`)
+        console.log(`Minimum element present in the array: ${new Solution().searchElement(enteredArray)}`)
     }
     else {
         console.log(`Cannot process single element or empty array`)
